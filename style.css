@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 50%;
+  left: 15%;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: #fff;
+  text-align: center;
+  transform: translateY(50%);
+}
+.w-450 {
+  max-width: 450px;
+  margin: 0 auto;
+}
