@@ -19,3 +19,38 @@ body {
   max-width: 450px;
   margin: 0 auto;
 }
+.w-300 {
+  max-width: 350px;
+  /* margin: 0 auto; */
+}
+.bg-sky-light {
+  background-color: #f4fafd;
+}
+#module #collapseExample.collapse:not(.show) {
+  display: block;
+  height: 3rem;
+  overflow: hidden;
+}
+
+#module #collapseExample.collapsing {
+  height: 3rem;
+}
+
+@media (max-width: 991px) {
+  .explore-img {
+    height: 480px;
+  }
+  .w-300 {
+    max-width: 290px;
+    /* margin: 0 auto; */
+  }
+}
+@media (max-width: 768px) {
+  .explore-img {
+    height: auto;
+  }
+  .w-300 {
+    max-width: 300px;
+    /* margin: 0 auto; */
+  }
+}
