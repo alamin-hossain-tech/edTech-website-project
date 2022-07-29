@@ -26,7 +26,7 @@ body {
 .bg-sky-light {
   background-color: #f4fafd;
 }
-#module #collapseExample.collapse:not(.show) {
+/* #module #collapseExample.collapse:not(.show) {
   display: block;
   height: 3rem;
   overflow: hidden;
@@ -34,7 +34,7 @@ body {
 
 #module #collapseExample.collapsing {
   height: 3rem;
-}
+} */
 .fa-star,
 .fa-star-half-stroke {
   color: #fbbf24;
