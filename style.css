@@ -48,6 +48,9 @@ body {
     max-width: 290px;
     /* margin: 0 auto; */
   }
+  .fixed-height {
+    height: auto;
+  }
 }
 @media (max-width: 768px) {
   .explore-img {
@@ -56,6 +59,9 @@ body {
   .w-300 {
     max-width: 300px;
     /* margin: 0 auto; */
+  }
+  .fixed-height {
+    height: 450px;
   }
 }
 
