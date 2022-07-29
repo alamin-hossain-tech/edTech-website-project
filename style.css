@@ -35,8 +35,9 @@ body {
 #module #collapseExample.collapsing {
   height: 3rem;
 }
-.fa-star, .fa-star-half-stroke{
-  color: #FBBF24;
+.fa-star,
+.fa-star-half-stroke {
+  color: #fbbf24;
 }
 
 @media (max-width: 991px) {
@@ -58,4 +59,11 @@ body {
   }
 }
 
-.
+.fa-angle-left,
+.fa-angle-right {
+  background-color: #e5f6ff;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: #289bde;
+}
